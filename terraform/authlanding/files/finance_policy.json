@@ -6,8 +6,8 @@
       "Effect": "Allow",
       "Action": [
         "aws-portal:*",
-        "pricing:*",
-        "budgets:*"
+        "budgets:*",
+        "pricing:*"
       ],
       "Resource": "*"
     }
