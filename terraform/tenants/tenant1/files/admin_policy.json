@@ -1,0 +1,47 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "VisualEditor0",
+      "Effect": "Allow",
+      "Action": [
+        "athena:*",
+        "batch:*",
+        "cloud9:*",
+        "cloudsearch:*",
+        "codebuild:*",
+        "codecommit:*",
+        "codedeploy:*",
+        "codepipeline:*",
+        "codestar:*",
+        "datapipeline:*",
+        "dynamodb:*",
+        "ec2:*",
+        "ecr:*",
+        "ecs:*",
+        "elasticache:*",
+        "elasticbeanstalk:*",
+        "elasticfilesystem:*",
+        "elasticmapreduce:*",
+        "elastictranscoder:*",
+        "es:*",
+        "glacier:*",
+        "glue:*",
+        "kinesis:*",
+        "kinesisanalytics:*",
+        "kinesisvideo:*",
+        "lambda:*",
+        "mediaconvert:*",
+        "medialive:*",
+        "mediapackage:*",
+        "mediastore:*",
+        "rds:*",
+        "redshift:*",
+        "s3:*",
+        "storagegateway:*",
+        "xray:*"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
