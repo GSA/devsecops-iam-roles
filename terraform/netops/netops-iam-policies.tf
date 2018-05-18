@@ -251,7 +251,7 @@ resource "aws_iam_policy" "GRACE_NetOps_View_Only_Policy" {
 EOF
 }
 
-resource "aws_iam_role_policy_attachment" "GRACE_NetOps_admins_policy_attachment_" {
+resource "aws_iam_role_policy_attachment" "GRACE_NetOps_admins_policy_attachment" {
   role       = "${aws_iam_role.netops_admin_role.name}"
   policy_arn = "${aws_iam_policy.GRACE_NetOps_Admins_Policy.arn}"
 }

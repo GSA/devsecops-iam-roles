@@ -662,7 +662,7 @@ resource "aws_iam_policy" "GRACE_Tenant1_View_Only_Policy3" {
 EOF
 }
 
-resource "aws_iam_role_policy_attachment" "grace_tenant1_admins_policy_attachment_" {
+resource "aws_iam_role_policy_attachment" "grace_tenant1_admins_policy_attachment" {
   role       = "${aws_iam_role.tenant1_admin_role.name}"
   policy_arn = "${aws_iam_policy.GRACE_Tenant1_Admins_Policy.arn}"
 }
