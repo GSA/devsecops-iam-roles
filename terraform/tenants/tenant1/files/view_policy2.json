@@ -49,7 +49,7 @@
         "datapipeline:QueryObjects",
         "datapipeline:ValidatePipelineDefinition",
         "elasticmapreduce:DescribeCluster",
-        "elasticmapreduce:DescribeJobFlows"
+        "elasticmapreduce:DescribeJobFlows",
         "elasticmapreduce:DescribeSecurityConfiguration",
         "elasticmapreduce:DescribeStep",
         "elastictranscoder:ReadJob",
